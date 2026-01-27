@@ -77,4 +77,45 @@ body {
 
 
 
+.sidebar {
+    grid-area: "sidebar";
+    background:  #34495e;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+
+.sidebar ul {
+    list-style: none;
+}
+
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+
+.sidebar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    transition: beckground-color 0.3s;
+}
+
+
+.sidebar a:hover {
+    background-color: #2c3e50;
+}
+
+
+
 
