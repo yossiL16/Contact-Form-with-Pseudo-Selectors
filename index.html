@@ -48,12 +48,52 @@
                 </div>
 
                 <div class="form-group">
-                    
+                    <label for="subject">Subject:</label>
+                    <textarea type="text" id="subject" name="subject" placeholder="type your message here..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="priority">priority Level:</label>
+                    <select name="priority" id="priority">
+                        <option value="low">low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                        <option value="urgent">Urgent</option>
+                    </select>
+                </div>
+
+
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" name="newletter"> Subscribe to newsletter
+                    </label>
+                    <label>
+                        <input type="checkbox" name="terms" required> I agree to terms and conditions
+                    </label>
+                </div>
+
+                <div class="button-group">
+                    <button type="submit" class="btn-submit" disabled>Submit from</button>
+                    <button type="reset" class="btn-submit">Reset From</button>
                 </div>
             </form>
+
+            <section class="content-section">
+                <h3>Pseudo Selectors Used:</h3>
+                <ul>
+                    <li><strong>:hover</strong> - Applied to buttons and inputs when you mouse over them</li>
+                    <li><strong>:focus</strong> - Applied to inputs when you click or tab into them</li>
+                    <li><strong>:active</strong> - Applied to buttons when you click and hold them</li>
+                    <li><strong>:disabled</strong> - Applied to the submit button to show it's disabled</li>
+                    <li><strong>:visited</strong> - Applied to navigation links you've already visited</li>
+                    <li><strong>:nth-child</strong> - Applied to style specific form groups differently</li>
+                </ul>
+            </section>
         </main>
 
-
+        <footer class="footer">
+            <p>Page created by Yossi Lerer</p>
+        </footer>
     </div>
 </body>
 </html>
